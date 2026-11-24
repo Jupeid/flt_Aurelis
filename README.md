@@ -24,16 +24,16 @@ Aurelis/
 ├── utils/           # Resolução de caminhos (desenvolvimento e executável)
 └── main.py          # Ponto de entrada da aplicação
 
-Como Executar:
-Pré-requisitos
+##Como Executar:
+**Pré-requisitos**
 - Python 3.10 ou superior
 - Flet (pip install flet)
 
-Executando localmente:
+**Executando localmente:**
 git clone https://github.com/Jupeid/flt_Aurelis.git
-cd New_Aurelis
+cd flt_Aurelis
 pip install flet
 python main.py
 
-Licença
+**Licença**
 © 2026 Jupeid. Todos os direitos reservados.
