@@ -1,0 +1,20 @@
+{
+  "boas_vindas": {
+    "HUD": false,
+    "limpar_tela": true,
+    "titulo": "Antes de Começar",
+    "narrativa": "Bem-vindo a Aurelis.\n\nAntes de iniciar a história, é importante saber que a aventura base possui algumas imagens e retratos de cenas exibidos no início — ou como plano de fundo — de seus capítulos, o que pode quebrar a imersão de alguns leitores.\n\nVocê pode ativar ou desativar as imagens a qualquer momento clicando no botão 🖼️ no canto superior direito.\n\nDesejo que tenha uma boa aventura!\n\nDeseja desligar as imagens antes de a história começar?",
+    "opcoes": {
+      "A": {
+        "texto": "Manter imagens ativadas e iniciar a jornada",
+        "exibir_imagens": true,
+        "proxima_cena": "prologo"
+      },
+      "B": {
+        "texto": "Desligar imagens (modo puramente textual)",
+        "exibir_imagens": false,
+        "proxima_cena": "prologo"
+      }
+    }
+  }
+}

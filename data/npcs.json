@@ -1,0 +1,74 @@
+{
+  "campeao_astrid": {
+    "id": "campeao_astrid",
+    "nome": "Astrid",
+    "afeicao": 60,
+    "eh_campeao": true,
+    "vivo": true,
+    "imobilizado": false,
+    "id_fragmento": "frag_magia"
+  },
+  "campeao_tyron": {
+    "id": "campeao_tyron",
+    "nome": "Tyron",
+    "afeicao": 30,
+    "eh_campeao": true,
+    "vivo": true,
+    "imobilizado": false,
+    "id_fragmento": "frag_guerra"
+  },
+  "campeao_serena": {
+    "id": "campeao_serena",
+    "nome": "Serena",
+    "afeicao": 30,
+    "eh_campeao": true,
+    "vivo": true,
+    "imobilizado": false,
+    "id_fragmento": "frag_amor"
+  },
+  "campeao_siles": {
+    "id": "campeao_siles",
+    "nome": "Siles",
+    "afeicao": 30,
+    "eh_campeao": true,
+    "vivo": true,
+    "imobilizado": false,
+    "id_fragmento": "frag_comercio"
+  },
+  "campeao_soren": {
+    "id": "campeao_soren",
+    "nome": "Soren",
+    "afeicao": 60,
+    "eh_campeao": true,
+    "vivo": true,
+    "imobilizado": false,
+    "id_fragmento": "frag_sabedoria"
+  },
+  "campeao_naira": {
+    "id": "campeao_naira",
+    "nome": "Naira",
+    "afeicao": 60,
+    "eh_campeao": true,
+    "vivo": true,
+    "imobilizado": false,
+    "id_fragmento": "frag_caca"
+  },
+  "campeao_miles": {
+    "id": "campeao_miles",
+    "nome": "Miles",
+    "afeicao": 50,
+    "eh_campeao": true,
+    "vivo": true,
+    "imobilizado": false,
+    "id_fragmento": "frag_entretenimento"
+  },
+  "campeao_florence": {
+    "id": "campeao_florence",
+    "nome": "Florence",
+    "afeicao": 50,
+    "eh_campeao": true,
+    "vivo": true,
+    "imobilizado": false,
+    "id_fragmento": "frag_terra"
+  }
+}

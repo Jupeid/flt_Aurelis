@@ -1,0 +1,74 @@
+{
+  "frag_magia": {
+    "id_item": "frag_magia",
+    "nome": "Fragmento da Magia",
+    "tipo": "fragmento",
+    "descricao": "Um pequeno cristal lapidado que brilha com energia arcana; o pulso de seu brilho parece alterar as leis da realidade ao seu redor.",
+    "bonus": { "magia": 2, "forca": 1 },
+    "portador_original": "Astrid",
+    "historia_origem": ""
+  },
+  "frag_guerra": {
+    "id_item": "frag_guerra",
+    "nome": "Fragmento da Guerra",
+    "tipo": "fragmento",
+    "descricao": "Uma medalha militar que emite um calor sobrenatural; seu pulso ardente parece sedento por sangue.",
+    "bonus": { "forca": 2, "vitalidade": 1 },
+    "portador_original": "Tyron",
+    "historia_origem": ""
+  },
+  "frag_amor": {
+    "id_item": "frag_amor",
+    "nome": "Fragmento do Amor",
+    "tipo": "fragmento",
+    "descricao": "Um brinco elegante cuja pérola rubra parece encantar todos que olham diretamente para seu portador.",
+    "bonus": { "destreza": 2, "magia": 1 },
+    "portador_original": "Serena",
+    "historia_origem": ""
+  },
+  "frag_comercio": {
+    "id_item": "frag_comercio",
+    "nome": "Fragmento do Comércio",
+    "tipo": "fragmento",
+    "descricao": "Um smartphone misterioso — dizem que é único no mundo. Seu sistema parece revelar o preço de tudo... e de todos.",
+    "bonus": { "sorte": 2, "inteligencia": 1 },
+    "portador_original": "Siles",
+    "historia_origem": ""
+  },
+  "frag_sabedoria": {
+    "id_item": "frag_sabedoria",
+    "nome": "Fragmento da Sabedoria",
+    "tipo": "fragmento",
+    "descricao": "Um bloco de notas antigo; suas páginas atualizam sua escrita dourada frequentemente e seus textos parecem revelar todos os segredos do mundo.",
+    "bonus": { "inteligencia": 2, "sorte": 1 },
+    "portador_original": "Soren",
+    "historia_origem": ""
+  },
+  "frag_caca": {
+    "id_item": "frag_caca",
+    "nome": "Fragmento da Caça",
+    "tipo": "fragmento",
+    "descricao": "Um anel de osso que exala uma aura primitiva; ao utilizá-lo, nada escapa dos sentidos de seu portador.",
+    "bonus": { "destreza": 2, "forca": 1 },
+    "portador_original": "Naira",
+    "historia_origem": ""
+  },
+  "frag_entretenimento": {
+    "id_item": "frag_entretenimento",
+    "nome": "Fragmento do Entretenimento",
+    "tipo": "fragmento",
+    "descricao": "Um dado de 6 lados colorido; muitos acreditam que quem o possuir terá sorte imensa em qualquer jogo.",
+    "bonus": { "sorte": 2, "vitalidade": 1 },
+    "portador_original": "Miles",
+    "historia_origem": ""
+  },
+  "frag_terra": {
+    "id_item": "frag_terra",
+    "nome": "Fragmento da Terra",
+    "tipo": "fragmento",
+    "descricao": "Uma semente dourada guardada dentro de um frasco de vidro; a semente parece exalar vitalidade, podendo crescer até no solo mais infértil.",
+    "bonus": { "vitalidade": 2, "magia": 1 },
+    "portador_original": "Florence",
+    "historia_origem": ""
+  }
+}

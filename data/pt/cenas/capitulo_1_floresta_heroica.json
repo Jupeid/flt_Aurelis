@@ -1,0 +1,185 @@
+{
+ "capitulo_1_floresta_heroica": {
+    "HUD": true,
+    "limpar_tela": true,
+    "efeitos_entrada": {
+      "equipar_item": [
+        {
+          "nome": "Armadura de Couro",
+          "slot": "armadura",
+          "bonus": {
+            "destreza": 1
+          }
+        },
+        { 
+          "nome": "Espada curta",
+          "slot": "arma",
+          "bonus": {
+            "forca": 1
+          }
+        }
+      ]         
+    },
+    "narrativa": "Visto rapidamente todo o equipamento que Eskil me trouxe enquanto ele e Eldrin vão na frente em busca de rastros das meninas.\n\nAssim que me arrumo, encontro Yvaine na entrada da floresta.\n\n— Você tem certeza de que quer ir conosco? Pode ser perigoso… — pergunto.\n\n— Não duvide das habilidades de Yvaine, Kael — responde Eldrin, surgindo da densa vegetação antes mesmo que minha mãe pudesse falar.\n\n— Encontraram algo?! — apressa-se Yvaine.\n\n— O garoto é bom — diz Eldrin, olhando para mim. — Graças à direção dele, Eskil conseguiu encontrar diversas pegadas. Nenhuma aparenta ser de Iris, mas com certeza eram de Astrid e de quem quer que estivesse com ela.\n\n— A casa Sylvaris tem muita coragem de ir atrás dos meus filhos — diz Yvaine, rangendo os dentes.\n\n— Velho, você tem certeza de que quer vir conosco? — questiono.\n\n— Você vai perguntar isso para todas as pessoas que cruzarem seu caminho hoje? — rebate o elfo.\n\n— N-não, é que estamos falando da Casa Sylvaris… E você é uma figura lendária de outro país. Estava pensando se vale a pena entrar em uma briga política com a Confederação por meros camponeses…\n\n— O que há, garoto? Cadê aquela coragem que demonstrou ao entrar na floresta ontem? É justamente por ser uma figura lendária que tenho total direito de defender “meros camponeses” — diz o elfo com convicção.\n\n— Obrigado… — agradeço.\n\n— Para mim vocês são como minha família, pirralho. Isso é apenas natural.\n\nSeguimos ao encontro de Eskil. Ele nos mostra uma trilha de pegadas humanas que se aprofunda na mata em direção a uma clareira bem conhecida, provavelmente usada como ponto de encontro pelos sequestradores.\n\n— Kael, como está o equipamento? E pensar que você iria utilizá-lo em uma situação assim tão rápido… — comenta Eskil.\n\n— Está perfeito, obrigado. Eu não poderia ficar de fora sendo que Iris pode ter se machucado por minha culpa.\n\n— Eles não ousariam machucá-la — Eskil responde, cerrando os punhos.\n\nAprofundamo-nos floresta adentro e fico impressionado com a coordenação do trio. Diversas feras aparecem no caminho, mas são subjugadas em segundos pela espada de Eskil e pelas magias de Eldrin, todos comandados por Yvaine — que demonstra um conhecimento tático impecável. Eu jamais havia imaginado que aquela mulher calorosa e um tanto boba pudesse ser uma líder nata.\n\nObservo enquanto o grupo enfrenta uma matilha de Barghests — canídeos mutantes de pelagem acinzentada, pernas traseiras desproporcionalmente longas e olhos sem pupilas. O fato de encontrarmos essas criaturas mostra que já estamos avançando rumo ao território demoníaco no extremo sul de Drakkenheim. O reino faz fronteira direta com o centro do continente e com Sylvaris a oeste. Nos livros comuns, \"As Terras Selvagens de Auster\" ocupariam todo o sul do continente, mas na realidade a região é infestada por criaturas bizarras e poderosas que andam soltas pelas planícies.\n\nDizem que, para o Rei assumir o trono, ele deve passar uma semana isolado nesse território sem água ou comida, devendo se autossustentar até que a guarda real o busque. Essa tradição serve para lembrar ao futuro governante o motivo da existência do reino: proteger o restante do mundo. Por focar totalmente na contenção de monstros, o reino acaba negligenciando a diplomacia com os países exteriores.\nEnquanto me distraio com tais pensamentos, noto tarde demais duas criaturas que fugiram do cerco de Eskil e Eldrin. Elas avançam diretamente na minha direção!\n\n(Cuidado!) — alerta Lumina em minha mente.",
+    "proxima_cena": "cap_1_check_reacao_floresta"
+  },
+
+  "cap_1_check_reacao_floresta": {
+    "blocos_sequenciais": [
+      {
+        "check_oculto": {
+          "tipo": "sorte",
+          "requisito_base": 60,
+          "bonus_por_ponto": 10
+        },
+        "sucesso": {
+          "proxima_cena": "cap_1_check_reacao_floresta_sucesso"
+        },
+        "falha": {
+          "check_resgate": {
+            "tipo": "atributo",
+            "nome": "destreza",
+            "valor": 3
+          },
+          "sucesso_resgate": {
+            "proxima_cena": "cap_1_check_reacao_floresta_sucesso"
+          },
+          "falha_resgate": {
+            "proxima_cena": "cap_1_check_reacao_floresta_fail"
+          }
+        }
+      }
+    ]
+  },
+  "cap_1_check_reacao_floresta_sucesso": {
+    "HUD": true,
+    "limpar_tela": true,
+    "narrativa": "Sinto o vento cortar a minha lateral e reajo por puro instinto. Dou um salto lateral rente ao tronco de uma árvore antiga. A garra afiada do Barghest rasga apenas o ar onde meu peito estava há um segundo. Ganho impulso na casca da árvore e caio em base firme, empunhando a espada, pronto para o combate!\n\nAs duas criaturas me cercam, rosnando baixo e babando uma essência escura, buscando minha próxima falha para banquetear-se com a presa.\n\n(Hospedeiro, cuidado! Essas criaturas são inteligentes. Provavelmente a matilha principal está distraindo seus pais e o elfo enquanto você é o alvo real!) — avisa Lumina.",
+    "opcoes": {
+      "A": {
+        "texto": "Tentar gritar chamando a atenção do Trio para me ajudar",
+        "requisitos": [],
+        "proxima_cena": "cap_1_check_atk_barghests"
+      },
+      "B": {
+        "texto": "Desferir um golpe na criatura à frente mantendo a guarda contra a segunda (Força 1, Destreza 2)",
+        "requisitos": [
+          {
+            "tipo": "atributo",
+            "nome": "forca",
+            "valor": 1
+          },
+          {
+            "tipo": "atributo",
+            "nome": "destreza",
+            "valor": 2
+          }
+        ],
+        "narrativa_consequencia": "Não perco tempo. Passo a perna à frente, fincando os pés no solo, e desfiro um corte transversal limpo no pescoço do Barghest à minha frente. A lâmina passa sem encontrar resistência e o sangue negro da fera espirra na vegetação.\n\n(Atrás de você!) — Lumina brada na minha mente.\n\nAbaixo a cabeça por um fio de segundo; o segundo monstro salta por cima de mim. Giro o corpo sobre o próprio eixo e cravo a espada de baixo para cima na barriga da fera enquanto ela ainda está no ar. O cadáver cai pesado no chão.\n\nEskil, que vinha recuando para me apoiar, para o passo e abre um sorriso orgulhoso:\n\n— Bom reflexo, garoto! Corte limpo e base firme. A armadura nova caiu bem em você!",
+        "proxima_cena": "capitulo_1_transicao_batalha_final"
+      },
+      "C": {
+        "texto": "Observar o movimento das criaturas e contra-atacar na abertura (Inteligencia 2, Destreza 1)",
+        "requisitos": [
+          {
+            "tipo": "atributo",
+            "nome": "inteligencia",
+            "valor": 2
+          },
+          {
+            "tipo": "atributo",
+            "nome": "destreza",
+            "valor": 1
+          }
+        ],
+        "narrativa_consequencia": "Relembro rapidamente as instruções táticas que vi Yvaine usar momentos atrás. Observo os pés das feras e a inclinação da vegetação baixa ao redor. Dou dois passos calculados para trás, atraindo a primeira criatura para um emaranhado de raízes expostas. Ela prende as patas traseiras e hesita por uma fração de segundo.\n\nÉ o suficiente. Avanço com uma estocada precisa no peito do monstro preso. Antes que a segunda besta perceba a armadilha, uso a carcaça da primeira como apoio, impulso-me para o lado e desfiro um golpe rápido na espinha da garra restante, paralisando-a de imediato.\n\nYvaine nota a movimentação de longe, estufa o peito visivelmente orgulhosa e dá um breve sorriso:\n\n— Usando o terreno e a paciência ao seu favor… É o meu garoto!",
+        "proxima_cena": "capitulo_1_transicao_batalha_final"
+      }
+    }
+  },
+  "cap_1_check_atk_barghests": {
+    "blocos_sequenciais": [
+      {
+        "check_oculto": {
+          "tipo": "sorte",
+          "requisito_base": 70,
+          "bonus_por_ponto": 10
+        },
+        "sucesso": {
+          "proxima_cena": "cap_1_atk_barghests_sucesso"
+        },
+        "falha": {
+          "proxima_cena": "cap_1_atk_barghests_fail"
+        }
+      }
+    ]
+  },
+  "cap_1_atk_barghests_sucesso": {
+    "HUD": true,
+    "limpar_tela": true,
+    "narrativa": "— Mãe! Atrás de mim! — grito no topo dos meus pulmões.\n\nYvaine nem sequer vira o corpo inteiro. Com um movimento fluido e quase imperceptível de braço, ela arremessa duas adagas prateadas que cortam o ar como relâmpagos. As lâminas atingem precisamente a testa de ambas as criaturas antes que elas possam saltar sobre mim, caindo mortas aos meus pés.\n\nEldrin dá uma olhada rápida por cima do ombro e comenta com um sorriso de canto:\n\n— Fique atento às sombras, garoto. Criaturas deste território usam o calor da batalha dos líderes para caçar os retardatários. É a tática de abate mais antiga da floresta.",
+    "proxima_cena": "capitulo_1_transicao_batalha_final"
+  },
+  "cap_1_atk_barghests_fail": {
+    "HUD": true,
+    "limpar_tela": true,
+    "efeitos_entrada": {
+      "dano_recebido": 3
+    },
+    "narrativa": "— Mãe! — tento gritar, mas o som da batalha principal e as explosões mágicas de Eldrin abafam minha voz.\nAntes que eu possa recuar, as duas feras saltam simultaneamente. Consigo fincar minha lâmina na garganta da primeira, matando-a instantaneamente, mas a segunda me atinge em cheio no peito, jogando-me brutalmente contra o chão. Quando as mandíbulas do monstro estão a centímetros do meu pescoço, uma lâmina de sombra trespassa a cabeça da besta. Yvaine surge ao meu lado, arfando, e remove a criatura de cima de mim.\nEldrin se aproxima com o olhar severo e me adverte:\n— Em um campo de batalha real, Kael, hesitar e esperar que outros lutem por você é o caminho mais rápido para a cova. Mantenha os olhos abertos e a lâmina pronta!",
+    "proxima_cena": "capitulo_1_transicao_batalha_final"
+  },
+  "cap_1_check_reacao_floresta_fail": {
+    "HUD": true,
+    "limpar_tela": true,
+    "efeitos_entrada": {
+      "dano_recebido": 5,
+      "aplicar_debuff": {
+        "atributo": "destreza",
+        "valor": 1
+      }
+    },
+    "narrativa": "Tento me esquivar, mas a minha reação é lenta. As garras afiadas da fera cortam de raspão o meu ombro esquerdo. Uma dor aguda e quente se espalha pelo meu braço. A ardência me faz rosnar de dor, ao mesmo tempo sinto o veneno da criatura deixando meu corpo entorpecido.\n\nAs duas criaturas me cercam, rosnando baixo e babando uma essência escura, buscando minha próxima falha para banquetear-se com a presa.\n\n(Hospedeiro, cuidado! Essas criaturas são inteligentes. Provavelmente a matilha principal está distraindo seus pais e o elfo enquanto você é o alvo real!) — avisa Lumina.",
+    "opcoes": {
+      "A": {
+        "texto": "Tentar gritar chamando a atenção do Trio para me ajudar",
+        "requisitos": [],
+        "proxima_cena": "cap_1_check_atk_barghests"
+      },
+      "B": {
+        "texto": "Desferir um golpe na criatura à frente mantendo a guarda contra a segunda (Força 1, Destreza 2)",
+        "requisitos": [
+          {
+            "tipo": "atributo",
+            "nome": "forca",
+            "valor": 1
+          },
+          {
+            "tipo": "atributo",
+            "nome": "destreza",
+            "valor": 3
+          }
+        ],
+        "narrativa_consequencia": "Não perco tempo. Passo a perna à frente, fincando os pés no solo, e desfiro um corte transversal limpo no pescoço do Barghest à minha frente. A lâmina passa sem encontrar resistência e o sangue negro da fera espirra na vegetação.\n\n(Atrás de você!) — Lumina brada na minha mente.\n\nAbaixo a cabeça por um fio de segundo; o segundo monstro salta por cima de mim. Giro o corpo sobre o próprio eixo e cravo a espada de baixo para cima na barriga da fera enquanto ela ainda está no ar. O cadáver cai pesado no chão.\n\nEskil, que vinha recuando para me apoiar, para o passo e abre um sorriso orgulhoso:\n\n— Bom reflexo, garoto! Corte limpo e base firme. A armadura nova caiu bem em você!",
+        "proxima_cena": "capitulo_1_transicao_batalha_final"
+      },
+      "C": {
+        "texto": "Observar o movimento das criaturas e contra-atacar na abertura (Inteligencia 2, Destreza 1)",
+        "requisitos": [
+          {
+            "tipo": "atributo",
+            "nome": "inteligencia",
+            "valor": 2
+          },
+          {
+            "tipo": "atributo",
+            "nome": "destreza",
+            "valor": 1
+          }
+        ],
+        "narrativa_consequencia": "Relembro rapidamente as instruções táticas que vi Yvaine usar momentos atrás. Observo os pés das feras e a inclinação da vegetação baixa ao redor. Dou dois passos calculados para trás, atraindo a primeira criatura para um emaranhado de raízes expostas. Ela prende as patas traseiras e hesita por uma fração de segundo.\n\nÉ o suficiente. Avanço com uma estocada precisa no peito do monstro preso. Antes que a segunda besta perceba a armadilha, uso a carcaça da primeira como apoio, impulso-me para o lado e desfiro um golpe rápido na espinha da garra restante, paralisando-a de imediato.\n\nYvaine nota a movimentação de longe, estufa o peito visivelmente orgulhosa e dá um breve sorriso:\n\n— Usando o terreno e a paciência ao seu favor… É o meu garoto!",
+        "proxima_cena": "capitulo_1_transicao_batalha_final"
+      }
+    }
+  }
+}

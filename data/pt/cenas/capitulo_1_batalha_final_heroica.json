@@ -1,0 +1,186 @@
+{
+  "capitulo_1_batalha_final_heroica": {
+    "HUD": true,
+    "limpar_tela": true,
+    "narrativa": "O Cath Palug ruge, os olhos brilhando em uma tonalidade carmesim profana. Suas garras demoníacas cintilam em um tom rubi fulgurante à medida que a fera avança contra mim. Sinto o perigo no ar: as garras de um Palug não ferem apenas a carne, mas dilaceram a própria alma.",
+    "blocos_sequenciais": [
+      {
+        "check_oculto": {
+          "tipo": "atributo",
+          "nome": "destreza",
+          "valor": 2
+        },
+        "sucesso": {
+          "texto": "Dou um salto lateral no exato milissegundo em que as garras rubras cortam o ar onde meu peito estava. O impacto da patada da besta estilhaça o solo de pedra ao meu lado, abrindo a guarda do monstro.",
+          "sub_checks": [
+            {
+              "check": {
+                "tipo": "atributo",
+                "nome": "forca",
+                "valor": 2
+              },
+              "texto": "Aproveito a abertura e desfiro um golpe brutal com minha espada banhada pela essência negra de Nix. A lâmina atravessa a carapaça do Palug, deixando um corte profundo em seu flanco. A fera urra de dor enquanto sangue negro goteja no solo.",
+              "proxima_cena": "capitulo_1_batalha_final_heroica_fase_2B"
+            },
+            {
+              "check": {
+                "tipo": "atributo",
+                "nome": "magia",
+                "valor": 2
+              },
+              "texto": "Com o suporte de Nix, canalizo uma chama negra de essência sombria em minha mão e a manifesto diretamente na pata apoiada da criatura. O fogo profano queima a carne do felino enquanto drena sua energia.",
+              "proxima_cena": "capitulo_1_batalha_final_heroica_fase_2B"
+            },
+            {
+              "check": {
+                "tipo": "atributo",
+                "nome": "inteligencia",
+                "valor": 2
+              },
+              "texto": "Lembro-me da conversa com Lumina sobre moldar a essência. Com a energia de Nix, imagino envolvendo meu punho com uma densa manopla de essência negra cristalizada e desfiro um soco devastador diretamente no crânio da fera, fazendo-a desnortear com o impacto.",
+              "proxima_cena": "capitulo_1_batalha_final_heroica_fase_2B"
+            }
+          ],
+          "texto_falha_sub_checks": "Consigo esquivar a tempo, recompondo minha postura enquanto o felino se vira rapidamente para mim, arfando.",
+          "proxima_cena": "capitulo_1_batalha_final_heroica_fase_2B"
+        },
+        "falha": {
+          "texto": "Tento desviar, mas o veneno dos barghests ainda afeta meu equilíbrio. As garras rubi rasgam meu peito. A dor não é apenas física; sinto como se minha própria vitalidade e energia fossem arrancadas de mim!",
+          "dano_recebido": 5,
+          "aplicar_debuff": {
+            "atributo": "magia",
+            "valor": 1
+          },
+          "check_resgate": {
+            "tipo": "chance_sorte",
+            "requisito_base": 25,
+            "bonus_por_ponto": 10
+          },
+          "sucesso_resgate": {
+            "texto": "Percebendo que estou debilitado a fera avança mais uma vez tentando morder minha jugular, e por um triz! Consigo esquivar a cabeça no último milissegundo. Os dentes do monstro estalam no ar, raspando meu ombro.",
+            "proxima_cena": "capitulo_1_batalha_final_heroica_fase_2B"
+          },
+          "falha_resgate": {
+            "texto": "Minha visão escurece. A dor do ferimento me impede de erguer a lâmina a tempo. As mandíbulas da besta se fecham ao redor do meu pescoço... O mundo se apaga...",
+            "proxima_cena": "game_over"
+          }
+        }
+      }
+    ]
+  },
+  "game_over": {
+    "HUD": true,
+    "limpar_tela": true,
+    "efeitos_entrada": {
+      "dano_recebido": 99
+    },
+    "narrativa": "As forças abandonam seu corpo e a escuridão consome tudo ao redor.",
+    "proxima_cena": ""
+  },
+ 
+  "capitulo_1_batalha_final_heroica_fase_2B": {
+    "HUD": true,
+    "limpar_tela": true,
+    "narrativa": "Após o primeiro contato, a criatura me ronda, me encarando como se tivesse encontrado a presa perfeita. Enquanto isso, Yvaine finaliza o tratamento de Astrid, saca suas adagas com rapidez e habilidade, eliminando um dos imps que cercavam Eskil.\nSem perder tempo, o guerreiro faz uma investida contra o último diabo, decepando sua cabeça com um corte limpo. O casal se prepara para se unir a Eldrin na batalha mágica.\nO conjurador continua invocando criaturas demoníacas — seres que parecem sombras vivas — e os comanda para cima do arquimago. Eldrin, por sua vez, utiliza magia de luz para eliminar as sombras em um piscar de olhos. É possível notar a impaciência no olhar do daemon tamer. Em um rito desesperado, ele invoca uma enorme gárgula que voa diretamente na direção do elfo. Dessa vez, a conjuração rápida de feitiços de Eldrin não é suficiente, pois a besta parece ser imune à magia.\nNo entanto, o rito cobra seu preço: o invocador tosse sangue e aparenta ter perdido a capacidade de se teleportar. Ele tenta aproveitar a confusão no campo de batalha para fugir, mas uma adaga cintilante voa da direção de uma das árvores, atingindo em cheio o seu calcanhar. Não sei quem a lançou, mas a mira foi impecável. Com o calcanhar ferido, mesmo que o mago corra sem descanso, não irá muito longe, deixando um rastro de sangue fácil de seguir.\nYvaine e Eskil se juntam a Eldrin para conter a gárgula.\n\nOuço um leve rosnado à minha frente; a criatura aguarda meu próximo movimento. A iniciativa está totalmente em minhas mãos!",
+    "opcoes": {
+      "A": {
+        "texto": "Observar a criatura, aguardando seu próximo movimento",
+        "requisitos": [],
+        "proxima_cena": "capitulo_1_palug_atk_final_heroico"
+      },
+      "B": {
+        "texto": "Investir contra a criatura com a espada banhada em essência negra de Nix",
+        "requisitos": [],
+        "conhecimento": "Palug - Espada Negra",
+        "proxima_cena": "cap_1_check_death_palugB"
+      },
+      "C": {
+        "texto": "Atacar a criatura utilizando a chama negra, buscando queimá-la por inteiro (Magia 1)",
+        "requisitos": [
+          {
+            "tipo": "atributo",
+            "nome": "magia",
+            "valor": 2
+          }
+        ],
+        "conhecimento": "Palug - Chama Negra",
+        "proxima_cena": "cap_1_check_death_palugB"
+      },
+      "D": {
+        "texto": "Investir contra a criatura utilizando a manopla de essência para esmagá-la (Inteligência 2)",
+        "requisitos": [
+          {
+            "tipo": "atributo",
+            "nome": "inteligencia",
+            "valor": 2
+          }
+        ],
+        "conhecimento": "Palug - Manopla Negra",
+        "proxima_cena": "cap_1_check_death_palugB"
+      }
+    }
+  },
+  "cap_1_check_death_palugB": {
+    "blocos_sequenciais": [
+      {
+        "check_oculto": {
+          "tipo": "chance_sorte",
+          "requisito_base": 80,
+          "bonus_por_ponto": 10
+        },
+        "sucesso": {
+          "texto": "Meu ataque passa direto pela guarda da besta!",
+          "sub_checks": [
+            {
+              "check": {
+                "tipo": "conhecimento",
+                "nome": "Palug - Espada Negra"
+              },
+              "texto": "O golpe atinge o Cath Palug em cheio, causando um corte profundo.\nO felino desaba, sangrando profusamente e agonizando. Quando a criatura faz um esforço para se levantar e tentar um último arranhão, sinto uma onda de energia aquecer minhas costas: Astrid conjura suas últimas forças, cobrindo meu corpo com uma aura de mana radiante!\nSinto minha força se multiplicar e desfiro outro golpe; minha lâmina aumenta com o encanto de Astrid e a essência de Nix, dividindo a fera ao meio com um corte vertical devastador.",
+              "proxima_cena": "capitulo_1_final"
+            },
+            {
+              "check": {
+                "tipo": "conhecimento",
+                "nome": "Palug - Chama Negra"
+              },
+              "texto": "Com o suporte de Nix, canalizo essência como uma recém criada chama sombria em minha mão, O golpe atinge o Cath Palug em cheio e seus pelos se incendeiam com o fogo negro.\nO felino desaba agonizando. Quando a criatura faz um esforço para se levantar e tentar um último arranhão, sinto uma onda de energia aquecer minhas costas: Astrid conjura suas últimas forças, cobrindo meu corpo com uma aura de mana radiante!\nCanalizo o poder de Astrid junto à essência de Nix, criando uma lança de chama sombria que atravessa o coração do Cath Palug e o vaporiza por dentro.",
+              "proxima_cena": "capitulo_1_final"
+            },
+            {
+              "check": {
+                "tipo": "conhecimento",
+                "nome": "Palug - Manopla Negra"
+              },
+              "texto": "Com a ajuda de Nix, imagino essência envolvendo meu punho, o golpe atinge o Cath Palug em cheio com um soco certeiro na base de seu crânio.\nO felino desaba, sangrando profusamente e agonizando. Quando a criatura faz um esforço para se levantar e tentar um último arranhão, sinto uma onda de energia aquecer minhas costas: Astrid conjura suas últimas forças, cobrindo meu corpo com uma aura de mana radiante!\nA manopla de essência duplica de tamanho sob o efeito do brilho de Astrid. Desfiro um soco sísmico no peito da besta, colapsando seu corpo contra o solo.",
+              "proxima_cena": "capitulo_1_final"
+            }
+          ]
+        },
+        "falha": {
+          "texto": "A fera antecipa o meu movimento, usa a cauda para desviar meu ataque e me atinge com um golpe de impacto violento nas costelas!\nCaio de joelhos, sem ar. O Cath Palug escancara as mandíbulas e salta para a mordida!",
+          "dano_recebido": 5,
+          "check_resgate": {
+            "tipo": "chance_sorte",
+            "requisito_base": 25,
+            "bonus_por_ponto": 10
+          },
+          "sucesso_resgate": {
+            "texto": "Consigo esquivar no último milissegundo! Os dentes do monstro estalam no ar.",
+            "proxima_cena": "capitulo_1_palug_atk_final_heroico"
+          },
+          "falha_resgate": {
+            "texto": "Sem forças para desviar, minha visão escurece. A dor do ferimento me impede de erguer a lâmina a tempo. As mandíbulas da besta se fecham ao redor do meu pescoço... O mundo se apaga...",
+            "proxima_cena": "game_over"
+          }
+        }
+      }
+    ]
+  },
+  "capitulo_1_palug_atk_final_heroico": {
+    "HUD": true,
+    "limpar_tela": true,
+    "narrativa": "Recuo um passo, desacelerando a respiração e analisando detalhadamente cada tremor na postura da fera.\nO Cath Palug se lança em uma sequência de ataques. Prevejo sua trajetória e, ao realizar uma esquiva em ângulo perfeito, giro o corpo e desfiro um golpe cirúrgico: degolo parte do pescoço do felino e decepo uma de suas patas dianteiras!\nA besta desaba rugindo de dor. Tenta se levantar cambaleando e faz uma última investida cega. Astrid projeta uma barreira de luz à minha frente, bloqueando o ataque residual. O Cath Palug colide contra a barreira e cai morto, sucumbindo à hemorragia.",
+    "proxima_cena": "capitulo_1_final"
+  }
+}
