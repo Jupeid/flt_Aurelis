@@ -28,8 +28,8 @@
         "proxima_cena": "capitulo_1_resgate"
       },
       "C": {
-        "texto": "Decidir que a situação é grave e seria melhor chamar ajuda.",
-        "requisitos": [],
+        "texto": "Decidir que a situação é grave e seria melhor chamar ajuda. (CAPÍTULO EM CONSTRUÇÃO)",
+        "requisitos": [{"tipo":"atributo","nome":"inteligencia","valor": 99}],
         "narrativa_consequencia": "Hesito, então decido que é melhor buscar por ajuda e antes de sair olho mais uma vez para trás. Não há certeza de que conseguirei encontrar alguém a tempo, porém antes de ter a chance de mudar minha escolha escuto o som de passos se aproximando e decido que é um bom momento para me retirar.",
         "proxima_cena": "capitulo_1_abandono"
       }

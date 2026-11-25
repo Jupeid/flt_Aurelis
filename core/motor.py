@@ -353,13 +353,28 @@ class MotorJogo:
             iterador_opcoes = [(letras[i], dados) for i, dados in enumerate(opcoes_brutas)]
 
         opcoes_validas = []
-        for rotulo, op in iterador_opcoes:
-            requisitos = op.get("requisitos", [])
-            if self.testar_requisitos(requisitos):
-                opcoes_validas.append({**op, "_rotulo": rotulo})
-            elif op.get("mostrar_bloqueada", True):
-                opcoes_validas.append({**op, "_rotulo": rotulo, "_bloqueada": True})
+        for rotulo_chave, op in iterador_opcoes:
+            op_resolvida = dict(op)
 
+            # Resolve variantes condicionais da mesma opção (ex: estados diferentes de NPCs)
+            if "variantes" in op_resolvida:
+                variante_escolhida = None
+                for var in op_resolvida["variantes"]:
+                    conds_var = var.get("condicoes") or var.get("requisitos", [])
+                    if self.testar_requisitos(conds_var):
+                        variante_escolhida = var
+                        break
+                if variante_escolhida is None:
+                    continue
+                op_resolvida.update(variante_escolhida)
+
+            rotulo_exibicao = op_resolvida.get("rotulo", rotulo_chave)
+            requisitos = op_resolvida.get("requisitos", [])
+            if self.testar_requisitos(requisitos):
+                opcoes_validas.append({**op_resolvida, "_rotulo": rotulo_exibicao})
+            elif op_resolvida.get("mostrar_bloqueada", True):
+                opcoes_validas.append({**op_resolvida, "_rotulo": rotulo_exibicao, "_bloqueada": True})
+        
         return {
             "id_cena": self.cena_atual_id,
             "titulo": cena.get("titulo", ""),

@@ -2,11 +2,11 @@
   "tutorial_ponto_de_descanso": {
     "HUD": true,
     "limpar_tela": true,
+    "background": "assets/cenas/cena_descanso_1.jpg",
     "area_descanso": true,
     "permite_descanso": true,
     "descansar": true,
     "permite_pontos": true,
-    "background": "",
     "titulo": "[Tutorial - Ponto de Descanso]",
     "narrativa": "[(^o^)/] Você chegou a um ponto de descanso! Aqui você pode distribuir pontos, salvar seu progresso, checar seus status e seu HP e MP serão restaurados!\n\nA distribuição é opcional, clique em 'Continuar' para prosseguir sem distribuir pontos.\n\n[!o!] Cuidado: só é possível distribuir pontos e salvar em áreas de descanso, então lembre-se de salvar seu progresso antes de continuar!!",
     "proxima_cena": "capitulo_1_casa_pos_jantar"
@@ -14,14 +14,14 @@
   "capitulo_1_casa_pos_jantar": {
     "HUD": true,
     "limpar_tela": true,
-    "background": "assets/images/cenas/capitulo_1_casa_pos_jantar.jpg",
+    "background": "assets/cenas/capitulo_1_casa_pos_jantar.jpg",
     "ganho_item": {
       "nome": "Ervas Repelentes",
       "quantidade": 5
     },
     "blocos_sequenciais": [
       {
-        "texto": "Desperto na manhã seguinte com os primeiros raios de sol e sigo em direção à casa de banho para lavar o rosto. Ao sair, escuto o barulho de mantimentos e equipamentos sendo arrumados. É meu pai, Eskil, preparando-se para ir à cidade.\n\nEle nota minha aproximação e fala em tom baixo:\n\n— Estarei indo para a cidade vender as peles, a carne e entregar a carta da garota. Enquanto eu estiver fora, tome cuidado. Se for para a floresta, leve isso.\nEle me entrega uma bolsa cheia de ervas repelentes — as mesmas que queimei durante o encontro com os lobos.\n\n==================================================\n[Item Adquirido: 5x Ervas Repelentes]\n- Efeito: Mantém predadores afastados e atrai caças menores.\n==================================================\n\n— Isso vai te manter seguro contra predadores e pode até atrair algumas presas — continua ele, com um piscadela. — Mas não conte para a sua mãe que te entreguei isso, senão ela vai dizer que estou te incentivando a se aventurar na mata! HAHAHA!\n\nEle dá uma pequena gargalhada retumbante e me encara com mais gravidade:\n\n— Cuide das mulheres enquanto eu estiver fora. E evite expor a Astrid. Se alguém está atrás da vida dela, é melhor que pensem que concluíram o serviço.\n\nEscuto todas as instruções atentamente e o acompanho até a saída, ajudando a carregar o restante da carga na carroça. Após uma breve despedida, retorno para casa e começo a preparar o café da manhã.\n\nAssim que termino de arrumar a mesa, vou até o quarto de Iris para verificar como ela está. Ao abrir a porta de leve, noto Yvaine sentada ao pé da cama, observando a garota dormir. Seus olhos estão lacrimejando — algo que ela tenta esconder rapidamente assim que percebe minha presença.\n\n[IMG: assets/images/cenas/capitulo_1_casa_pos_jantar.jpg]\n\n— O café está pronto — aviso, em tom suave.\n\nO silêncio predomina no quarto por alguns segundos.\n\n— Algo errado? — pergunto."
+        "texto": "Desperto na manhã seguinte com os primeiros raios de sol e sigo em direção à casa de banho para lavar o rosto. Ao sair, escuto o barulho de mantimentos e equipamentos sendo arrumados. É meu pai, Eskil, preparando-se para ir à cidade.\n\nEle nota minha aproximação e fala em tom baixo:\n\n— Estarei indo para a cidade vender as peles, a carne e entregar a carta da garota. Enquanto eu estiver fora, tome cuidado. Se for para a floresta, leve isso.\nEle me entrega uma bolsa cheia de ervas repelentes — as mesmas que queimei durante o encontro com os lobos.\n\n==================================================\n[Item Adquirido: 5x Ervas Repelentes]\n- Efeito: Mantém predadores afastados e atrai caças menores.\n==================================================\n\n— Isso vai te manter seguro contra predadores e pode até atrair algumas presas — continua ele, com um piscadela. — Mas não conte para a sua mãe que te entreguei isso, senão ela vai dizer que estou te incentivando a se aventurar na mata! HAHAHA!\n\nEle dá uma pequena gargalhada retumbante e me encara com mais gravidade:\n\n— Cuide das mulheres enquanto eu estiver fora. E evite expor a Astrid. Se alguém está atrás da vida dela, é melhor que pensem que concluíram o serviço.\n\nEscuto todas as instruções atentamente e o acompanho até a saída, ajudando a carregar o restante da carga na carroça. Após uma breve despedida, retorno para casa e começo a preparar o café da manhã.\n\nAssim que termino de arrumar a mesa, vou até o quarto de Iris para verificar como ela está. Ao abrir a porta de leve, noto Yvaine sentada ao pé da cama, observando a garota dormir.\n\n[IMG: assets/cenas/capitulo_1_casa_pos_jantar.jpg]\n\n Seus olhos estão lacrimejando — algo que ela tenta esconder rapidamente assim que percebe minha presença.\n\n[IMG: assets/images/cenas/capitulo_1_casa_pos_jantar.jpg]\n\n— O café está pronto — aviso, em tom suave.\n\nO silêncio predomina no quarto por alguns segundos.\n\n— Algo errado? — pergunto."
       },
       {
         "requisitos": [
@@ -40,35 +40,39 @@
         "requisitos": [
           { "tipo": "conhecimento", "nome": "iris_curada" }
         ],
-        "texto": "Ao cruzar o corredor, vejo Astrid abrindo a porta do meu quarto ao mesmo tempo, ainda com a cara amassada de sono."
+        "texto": "Ao cruzar o corredor, vejo Astrid abrindo a porta do meu quarto ao mesmo tempo, ainda com a cara amassada de sono.\n\n[IMG: assets/cenas/capitulo_1_casa_pos_jantar_astrid.jpg]\n\n"
       },
       {
-        "texto": "— Bom dia... — murmura ela, esfregando os olhos.\n\n— Bom dia. O café está pronto. Lave o rosto na casa de banho lá fora e depois vá para a cozinha. Deixarei os pratos na mesa. A casa de banho fica à direita, e a cozinha à esquerda.\n\n— Certo...\n\nCom as instruções dadas, volto para a cozinha e me sento sozinho à mesa. Aproveitando a tranquilidade do momento, começo a estudar o painel translúcido que vem surgindo desde que encontrei Astrid na floresta. Noto que, além de aparecer involuntariamente, ele reage diretamente aos meus pensamentos focados.\n\nAo me questionar mentalmente sobre o que seria aquela interface, o painel responde quase instantaneamente:\n\n==================================================\n[(='='=)]\nSou um espírito de apoio criado para auxiliar no desenvolvimento dos seus poderes.\n==================================================\n\n(Criado por quem?) — questiono em pensamento.\n\n==================================================\n[(='='=)]\nAura e Nox.\n==================================================\n\n(Quem são Aura e Nox?) — pergunto, cada vez mais confuso.\n\n==================================================\n[(='='=)]\nSão entidades divinas que reinam sobre os espíritos do mundo.\n==================================================\n\n(Nunca ouvi falar dessas entidades ou de espíritos de apoio...)\n\n==================================================\n[(._. ')]\nÉ compreensível. Espíritos raramente se envolvem com humanos. Contudo, sua família parece ser especial, já que meus criadores demonstram um interesse direto em proteger vocês.\n==================================================\n\nFico reflexivo diante daquela revelação. Antes que eu possa me aprofundar em perguntas mais complexas, a porta da cozinha se abre e Astrid entra, já de rosto lavado e com um olhar renovado.\n\nDecido interromper a conversa mental com o espírito por enquanto e foco em servir a refeição para a garota."
+        "texto": "— Bom dia... — murmura ela, esfregando os olhos.\n\n— Bom dia. O café está pronto. Lave o rosto na casa de banho lá fora e depois vá para a cozinha. Deixarei os pratos na mesa. A casa de banho fica à esquerda, e a cozinha à direita.\n\n— Certo...\n\nCom as instruções dadas, volto para a cozinha e me sento sozinho à mesa. Aproveitando a tranquilidade do momento, começo a estudar o painel translúcido que vem surgindo desde que encontrei Astrid na floresta. Noto que, além de aparecer involuntariamente, ele reage diretamente aos meus pensamentos focados.\n\nAo me questionar mentalmente sobre o que seria aquela interface, o painel responde quase instantaneamente:\n\n==================================================\n[(='='=)]\nSou um espírito de apoio criado para auxiliar no desenvolvimento dos seus poderes.\n==================================================\n\n(Criado por quem?) — questiono em pensamento.\n\n==================================================\n[(='='=)]\nAura e Nox.\n==================================================\n\n(Quem são Aura e Nox?) — pergunto, cada vez mais confuso.\n\n==================================================\n[(='='=)]\nSão entidades divinas que reinam sobre os espíritos do mundo.\n==================================================\n\n(Nunca ouvi falar dessas entidades ou de espíritos de apoio...)\n\n==================================================\n[(._. ')]\nÉ compreensível. Espíritos raramente se envolvem com humanos. Contudo, sua família parece ser especial, já que meus criadores demonstram um interesse direto em proteger vocês.\n==================================================\n\nFico reflexivo diante daquela revelação. Antes que eu possa me aprofundar em perguntas mais complexas, a porta da cozinha se abre e Astrid entra, já de rosto lavado e com um olhar renovado.\n\nDecido interromper a conversa mental com o espírito por enquanto e foco em servir a refeição para a garota.\n\nApós o café da manhã, converso com Astrid sobre magia — ou melhor, escuto a garota entusiasmada disparar um turbilhão de perguntas sobre a capacidade única de cura da minha mãe. Querendo respirar um pouco de ar fresco, saio da cozinha pensando no que fazer durante o dia, quando vejo Yvaine e Iris se aproximando. O semblante de Iris parece cada vez mais radiante. Ela me avista e me cumprimenta com energia:\n\n— Bom dia! O café está pronto? Estou morrendo de fome!\nSorrio e devolvo no mesmo tom:\n\n— É a última a acordar e acha que tem o direito de mandar em algo? Quem não trabalha, não come!\n\nEla me dedica um olhar travesso:\n\n— Você deixaria sua irmãzinha doente sem comida? Que sem coração! Acho que a sua namorada no futuro vai ter muitos problemas com essa personalidade... Pobre Astrid…\n\nUma veia salta na minha testa, levemente irritado com a provocação.\n\n— Acho que está faltando alguém para te educar um pouco — digo, aproximando-me com a mão em riste, pronto para dar um cascudo na testa dela. — Primeiro: conheci a Astrid ontem, então essa sua alegação não tem fundamento algum! Segundo: você não pode falar dessa maneira sobre os outros, é rude! Terceiro: para uma mocinha doente, você parece bem energética para falar tanta besteira!\n\nPercebendo o perigo iminente, Iris corre e se esconde atrás de Yvaine, que intervém na mesma hora, rindo da cena:\n\n— Tá bom, chega de brincadeiras. É muito bom ver a casa alegre assim pela manhã, mas vamos tomar café e nos preparar. Preciso ir ao vilarejo.\n\n— Ao vilarejo? — pergunto.\n\n— Sim. Eu e a Iris vamos ao vilarejo porque preciso repor alguns medicamentos na clínica e comprar mantimentos. Afinal, agora temos mais uma integrante na nossa residência. O que você pretende fazer hoje?\n\n"
       }
     ],
     "opcoes": {
       "A": {
-        "texto": "Ficar em casa e tentar conversar mais a fundo com o Espírito de Apoio. (Inteligência 2)",
+        "texto": "Ficar em casa e tentar conversar melhor com Astrid",
         "requisitos": [
           { "tipo": "atributo", "nome": "inteligencia", "valor": 2 }
         ],
         "proxima_cena": "capitulo_1_casa_conversa_com_espirito"
       },
       "B": {
-        "texto": "Levar Astrid para conhecer o vilarejo.",
-        "requisitos": [
-          { "tipo": "conhecimento", "nome": "iris_curada" }
-        ],
-        "proxima_cena": "capitulo_1_vilarejo"
+        "variantes": [
+          {
+            "requisitos": [
+              { "tipo": "conhecimento", "nome": "iris_curada" }
+            ],
+            "texto": "Levar Astrid para conhecer o vilarejo.",
+            "proxima_cena": "capitulo_1_vilarejo"
+          },
+          {
+            "requisitos": [
+              { "tipo": "conhecimento", "nome": "iris_curada", "negado": true }
+            ],
+            "texto": "Verificar a situação do vilarejo.",
+            "proxima_cena": "capitulo_1_vilarejo_B"
+          }
+        ]
       },
       "C": {
-        "texto": "Verificar a situação do vilarejo.",
-        "requisitos": [
-          { "tipo": "conhecimento", "nome": "iris_curada", "negado": true }
-        ],
-        "proxima_cena": "capitulo_1_vilarejo_B"
-      },
-      "D": {
         "texto": "Ir com Astrid para a floresta para começar a praticar os princípios de magia. (Magia 1)",
         "requisitos": [
           { "tipo": "atributo", "nome": "magia", "valor": 1 }
@@ -76,7 +80,7 @@
         "ganho_xp": 2,
         "proxima_cena": "capitulo_1_treino_na_floresta"
       },
-      "E": {
+      "D": {
         "texto": "Treinar suas habilidades de caça e tiro utilizando o arco e flecha de Eskil. (Destreza 1)",
         "requisitos": [
           { "tipo": "atributo", "nome": "destreza", "valor": 1 }
