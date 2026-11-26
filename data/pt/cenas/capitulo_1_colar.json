@@ -5,7 +5,7 @@
     "background": "assets/cenas/capitulo_1_colar.jpg",
     "blocos_sequenciais": [
       {
-         "texto": "— Sobre o colar, ele me foi dado pela minha mãe. É uma das últimas memórias que tenho dela. Ele é feito de um cristal de mana que me ajuda a canalizar os feitiços.\n— É um belo colar, mas não me lembro de você o usando quando estava na floresta.\n\nA garota novamente me olha de maneira desconfiada.\n\n— Digo! Uma pedra tão chamativa eu certamente teria notado! — apresso-me em explicar para que um novo mal-entendido não seja criado.\n— … Eu também achei que o havia perdido, porém ele ainda estava comigo. Fiquei aliviada ao perceber.\n— Entendi. Que bom que conseguiu mantê-lo.\n— Obrigada.\n\n"
+         "texto": "— Sobre o colar, ele me foi dado pela minha mãe. É uma das últimas memórias que tenho dela. Ele é feito de um cristal de mana que me ajuda a canalizar os feitiços.\n\n[IMG: assets/cenas/capitulo_1_colar.jpg]\n\n— É um belo colar, mas não me lembro de você o usando quando estava na floresta.\n\nA garota novamente me olha de maneira desconfiada.\n\n— Digo! Uma pedra tão chamativa eu certamente teria notado! — apresso-me em explicar para que um novo mal-entendido não seja criado.\n— … Eu também achei que o havia perdido, porém ele ainda estava comigo. Fiquei aliviada ao perceber.\n— Entendi. Que bom que conseguiu mantê-lo.\n— Obrigada.\n\n"
       }, 
       {  
          "requisitos": [
