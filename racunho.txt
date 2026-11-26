@@ -19,14 +19,104 @@ Percebendo o perigo iminente, Iris corre e se esconde atrás de Yvaine, que inte
 
 — Ao vilarejo? — pergunto.
 
-— Sim. Eu e a Iris vamos ao vilarejo porque preciso repor alguns medicamentos na clínica e comprar mantimentos. Afinal, agora temos mais uma integrante na nossa residência.]
+— Sim. Eu e a Iris vamos ao vilarejo porque preciso repor alguns medicamentos na clínica e comprar mantimentos. Afinal, agora temos mais uma integrante na nossa residência. E você o que fará hoje?]
 
 
--- Certo, ficarei mais um pouco em casa, o pai pediu para que eu não expusesse Astrid por enquanto.
--- Entendi, Nesse caso se cuide e cuide da casa... -- Ela olha brevemente para Astrid -- E Kael, não apronte enquanto estivermos fora. -- Completa com um sorriso malicioso.
+— Certo, ficarei mais um pouco em casa. O pai pediu para que eu não expusesse a Astrid por enquanto.
+— Entendi. Nesse caso, se cuide e cuide da casa... — Ela olha brevemente para Astrid — E, Kael, não apronte nada enquanto estivermos fora — completa com um sorriso malicioso.
 
-Astrid nos olha com uma expressão curiosa, solto um breve suspiro desistindo e ignorando a brincadeira.
+Astrid nos olha com uma expressão curiosa. Solto um breve suspiro, desistindo de argumentar e ignorando a provocação.
 
--- Tomarei cuidado, vocês também se cuidem, ainda não sabemos se os sequestradores ainda estão por perto.
+— Tomarei cuidado. Vocês também se cuidem, ainda não temos certeza se os sequestradores estão por perto.
 
-Após ajudar Yvaine e Iris a carregarem suas bolsas, nos despedimos dela enquanto elas seguiam estrada a fora.
+Após ajudar Yvaine e Iris a carregarem suas bolsas, nos despedimos delas enquanto seguem estrada afora.
+
+— Então, já que não podemos sair, o que pretende fazer hoje? — questiona Astrid.
+— Ainda não tenho certeza. Por enquanto, vou apenas organizar o pátio e verificar as ferramentas no depósito.
+— Precisa de ajuda?
+— Não é necessário. Não sei o que você normalmente faz para se distrair, mas, como não há muito o que fazer por aqui, tenho alguns livros no meu quarto que você pode ler para passar o tempo.
+— Então você também gosta de ler?
+— É um bom passatempo quando não temos as mesmas tecnologias da Confederação.
+— Você já foi para a Confederação?! — A garota se entusiasma novamente, dando um passo à frente.
+
+Eu a afasto gentilmente. É um pouco preocupante a facilidade com que ela invade o espaço pessoal quando algo desperta seu interesse.
+
+— Não, li sobre ela nos livros da livraria do vilarejo.
+— Há uma livraria aqui?! — Ela se inclina para mim outra vez. É nesse momento que finalmente noto um colar em seu pescoço. Não me lembro de tê-la visto usando isso quando a tirei da árvore, mas recordo de vê-lo durante o jantar de ontem. Afasto-a novamente com delicadeza. — Sim, há. Se quiser, quando a poeira abaixar, posso levá-la para visitar antes de você ir embora.
+— Promete?!
+— Sim. Por sinal, belo colar. Foi algum presente da Yvaine? — questiono, genuinamente curioso.
+
+Porém, o que era uma pergunta inocente acaba se tornando um mal-entendido. Ao notar o ângulo do meu olhar apontado para a altura de seu busto, Astrid cora violentamente e recua.
+
+— Para onde você está olhando?!
+
+[ESCOLHAS DO JOGADOR]
+[A] Dizer que foi um engano
+— Não, desculpe, é um engano! Eu apenas notei o colar no seu pescoço e... Ei! A culpa é sua por ficar se jogando em cima de mim a cada dois segundos, como é que o errado sou eu?!
+— Isso não quer dizer que você pode ficar me encarando!
+— Não foi a minha intenção! Apenas reparei no colar, só isso. Não olhei para nada a mais.
+— Tem certeza? — diz a garota, visivelmente envergonhada.
+— Sim, estou falando sério.
+— Tá bom, acredito em você. Sobre o colar...
+
+(Segue para a cena sobre a história do colar)
+
+[B] Pedir desculpas
+— Desculpe, foi indelicado da minha parte. Não foi minha intenção olhar, apenas notei o brilho do pingente e isso chamou minha atenção.
+
+Astrid alivia um pouco a tensão nos ombros e também abaixa a guarda.
+
+— Tudo bem, também foi culpa minha. Desculpe pela proximidade... Eu raramente interajo com alguém da minha idade, principalmente do sexo oposto, e tudo aqui é tão novo que acabo me exaltando demais — responde a garota, desviando o olhar com timidez.
+— Não, eu entendo. Também não interajo muito com pessoas de fora da minha família, então é legal ter alguém com quem conversar. Novamente, me desculpe pelo mal-entendido.
+— Tudo bem, esqueça isso. Sobre o colar...
+
+(Segue para a cena sobre a história do colar)
+
+[C] Provocar Astrid
+— O quê? Ficou se jogando em mim o tempo todo e agora está tímida? Difícil não notar algo tão belo.
+
+A garota fica completamente vermelha de vergonha.
+
+— M-mas mesmo assim, você não deveria!
+— Relaxa, só há nós dois aqui.
+
+A expressão tímida dela desaparece, dando lugar a uma irritação genuína.
+
+— O que você quer dizer com isso?! Acho que está tendo ideias bem erradas a meu respeito.
+
+[C_a] Prosseguir pressionando
+— Apenas não poderia deixar passar a oportunidade.
+— Muito bem. Vou lhe dar o tratamento que merece...
+
+Astrid dá um passo à frente. Quando tento abraçá-la, sinto uma leve e densa aura mágica envolvendo o corpo dela.
+
+— O que voc...?!
+
+Não consigo terminar a frase. Sinto o ar dos meus pulmões ser esvaziado bruscamente enquanto tento puxar oxigênio em vão. Meu corpo despenca; tento me segurar nela para manter o equilíbrio, mas ela desvia com agilidade.
+
+— É isso que tarados merecem — é a última coisa que ouço antes de minha visão escurecer por completo.(Consequência: Kael perde o restante do dia desacordado / penalidade na afinidade com Astrid)
+
+[C_b] Parar de provocar
+— Certo, certo, parei! Estava apenas brincando. Sendo honesto, só notei que você está usando um acessório novo hoje.
+
+PLAF! Astrid desfere um tapa estalado no meu rosto.
+
+— Isso é pela brincadeira. Você precisa aprender a se portar diante de uma dama. Sua mãe certamente saberá disso.
+
+Um suor frio escorre pela minha testa.
+
+— Isso... não seria necessário. Sério, desculpe... — Curvo-me levemente, fazendo um gesto sincero para pedir perdão.
+— Certo, deixarei passar desta vez, já que também lhe devo muito. Mas não exagere...
+— Fechado!
+
+Astrid solta um longo suspiro, recompondo a postura.
+
+— Sobre o colar...(Segue para a cena sobre a história do colar)
+-- Certo, deixarei passar dessa vez já que também te devo muito, mas, não exagere...
+-- Fechado!
+Astrid solta um suspiro
+-- Sobre o colar...
+próxima cena conta sobre o colar]
+
+
+--
