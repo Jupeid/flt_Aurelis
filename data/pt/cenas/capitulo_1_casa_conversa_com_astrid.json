@@ -1,0 +1,58 @@
+{
+    "capitulo_1_casa_conversa_com_astrid": {
+        "HUD": true,
+        "limpar_tela": true,
+        "background": "assets/cenas/capitulo_1_casa_conversa_com_astrid.jpg",
+        "narrativa": "-- Certo, ficarei mais um pouco em casa. O pai pediu para que eu não expusesse a Astrid por enquanto.\n-- Entendi. Nesse caso, se cuide e cuide da casa... -- Ela olha brevemente para Astrid -- E, Kael, não apronte nada enquanto estivermos fora -- completa com um sorriso malicioso.\n\nAstrid nos olha com uma expressão curiosa. Solto um breve suspiro, desistindo de argumentar e ignorando a provocação.\n\n-- Tomarei cuidado. Vocês também se cuidem, ainda não temos certeza se os sequestradores estão por perto.\n\nApós ajudar Yvaine e Iris a carregarem suas bolsas, nos despedimos delas enquanto seguem estrada afora.\n\n-- Então, já que não podemos sair, o que pretende fazer hoje? -- questiona Astrid.\n-- Ainda não tenho certeza. Por enquanto, vou apenas organizar o pátio e verificar as ferramentas no depósito.\n-- Precisa de ajuda?\n-- Não é necessário. Não sei o que você normalmente faz para se distrair, mas, como não há muito o que fazer por aqui, tenho alguns livros no meu quarto que você pode ler para passar o tempo.\n-- Então você também gosta de ler?\n-- É um bom passatempo quando não temos as mesmas tecnologias da Confederação.\n-- Você já foi para a Confederação?! -- A garota se entusiasma novamente, dando um passo à frente.\n\nEu a afasto gentilmente. É um pouco preocupante a facilidade com que ela invade o espaço pessoal quando algo desperta seu interesse.\n\n-- Não, li sobre ela nos livros da livraria do vilarejo.\n-- Há uma livraria aqui?! -- Ela se inclina para mim outra vez. É nesse momento que finalmente noto um colar em seu pescoço. Não me lembro de tê-la visto usando isso quando a tirei da árvore, mas recordo de vê-lo durante o jantar de ontem. Afasto-a novamente com delicadeza. -- Sim, há. Se quiser, quando a poeira abaixar, posso levá-la para visitar antes de você ir embora.\n-- Promete?!\n-- Sim. Por sinal, belo colar. Foi algum presente da Yvaine? -- questiono, genuinamente curioso.\n\nPorém, o que era uma pergunta inocente acaba se tornando um mal-entendido. Ao notar o ângulo do meu olhar apontado para a altura de seu busto, Astrid cora violentamente e recua.\n\n--Para onde você está olhando?![IMG: assets/cenas/capitulo_1_casa_conversa_com_astrid.jpg]\n\n",
+        "opcoes": {
+            "A": {
+                "texto": "Dizer que foi um engano",
+                "narrativa_consequencia": "-- Não, desculpe, é um engano! Eu apenas notei o colar no seu pescoço e... Ei! A culpa é sua por ficar se jogando em cima de mim a cada dois segundos, como é que o errado sou eu?!\n-- Isso não quer dizer que você pode ficar me encarando!\n-- Não foi a minha intenção! Apenas reparei no colar, só isso. Não olhei para nada a mais.\n-- Tem certeza? -- diz a garota, visivelmente envergonhada.\n-- Sim, estou falando sério.\n-- Tá bom, acredito em você.\n",
+                "proxima_cena": "capitulo_1_colar"
+            },
+            "B": {
+                "texto": "Pedir desculpas",
+                "narrativa_consequencia": "-- Desculpe, foi indelicado da minha parte. Não foi minha intenção olhar, apenas notei o brilho do pingente e isso chamou minha atenção.\n\nAstrid alivia um pouco a tensão nos ombros e também abaixa a guarda.\n\n-- Tudo bem, também foi culpa minha. Desculpe pela proximidade... Eu raramente interajo com alguém da minha idade, principalmente do sexo oposto, e tudo aqui é tão novo que acabo me exaltando demais -- responde a garota, desviando o olhar com timidez.\n-- Não, eu entendo. Também não interajo muito com pessoas de fora da minha família, então é legal ter alguém com quem conversar. Novamente, me desculpe pelo mal-entendido.\n-- Tudo bem, esqueça isso...\n",
+                "afeicao_npc": {
+                    "id_npc": "campeao_astrid",
+                    "delta": 5
+                },
+                "proxima_cena": "capitulo_1_colar"
+            },
+            "C": {
+                "texto": "Provocar Astrid",
+                "narrativa_consequencia": "-- O quê? Ficou se jogando em mim o tempo todo e agora está tímida? Difícil não notar algo tão belo.\n\nA garota fica completamente vermelha de vergonha.\n\n-- M-mas mesmo assim, você não deveria!\n-- Relaxa, só há nós dois aqui.\n\nA expressão tímida dela desaparece, dando lugar a uma irritação genuína.\n\n-- O que você quer dizer com isso?! Acho que está tendo ideias bem erradas a meu respeito.\n\n",
+                "afeicao_npc": {
+                    "id_npc": "campeao_astrid",
+                    "delta": -10
+                },
+                "proxima_cena": "capitulo_1_casa_conversa_com_astrid_C"
+            }
+        }
+    },
+    "capitulo_1_casa_conversa_com_astrid_C": {
+        "HUD": true,
+        "limpar_tela": false,
+        "opcoes": {
+            "A": {
+                "texto": "Prosseguir pressionando",
+                "narrativa_consequencia": "-- Apenas não poderia deixar passar a oportunidade.\n-- Muito bem. Vou lhe dar o tratamento que merece...\n\nAstrid dá um passo à frente. Quando tento abraçá-la, sinto uma leve e densa aura mágica envolvendo o corpo dela.\n\n-- O que voc...?!\n\nNão consigo terminar a frase. Sinto o ar dos meus pulmões ser esvaziado bruscamente enquanto tento puxar oxigênio em vão. Meu corpo despenca; tento me segurar nela para manter o equilíbrio, mas ela desvia com agilidade.\n\n-- É isso que tarados merecem -- é a última coisa que ouço antes de minha visão escurecer por completo.\n\n",
+                "afeicao_npc": {
+                    "id_npc": "campeao_astrid",
+                    "delta": -20                    
+                },
+                "dano_recebido": 10,
+                "proxima_cena": "capitulo_1_desacordado"
+            },
+            "B": {
+                "texto": "Parar de provocar",
+                "narrativa_consequencia": "-- Certo, certo, parei! Estava apenas brincando. Sendo honesto, só notei que você está usando um acessório novo hoje.\n\nPLAF! Astrid desfere um tapa estalado no meu rosto.\n\n-- Isso é pela brincadeira. Você precisa aprender a se portar diante de uma dama. Sua mãe certamente saberá disso.\n\nUm suor frio escorre pela minha testa.\n\n-- Isso... não seria necessário. Sério, desculpe... -- Curvo-me levemente, fazendo um gesto sincero para pedir perdão.\n-- Certo, deixarei passar desta vez, já que também lhe devo muito. Mas não exagere...\n-- Fechado!\n\nAstrid solta um longo suspiro, recompondo a postura.\n\n",
+                "afeicao_npc": {
+                    "id_npc": "campeao_astrid",
+                    "delta": -5
+                },
+                "proxima_cena": "capitulo_1_colar"
+            }
+        }
+    }    
+}

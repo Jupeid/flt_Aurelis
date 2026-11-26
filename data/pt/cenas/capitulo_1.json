@@ -58,7 +58,7 @@
         "conhecer_npc": "campeao_astrid",
         "afeicao_npc": {
           "id_npc": "campeao_astrid",
-          "delta": 5
+          "delta": 2
         },
         "proxima_cena": "capitulo_1_lobo"
       }

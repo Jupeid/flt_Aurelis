@@ -49,10 +49,8 @@
     "opcoes": {
       "A": {
         "texto": "Ficar em casa e tentar conversar melhor com Astrid",
-        "requisitos": [
-          { "tipo": "atributo", "nome": "inteligencia", "valor": 2 }
-        ],
-        "proxima_cena": "capitulo_1_casa_conversa_com_espirito"
+        "requisitos": [],
+        "proxima_cena": "capitulo_1_casa_conversa_com_astrid"
       },
       "B": {
         "variantes": [
@@ -73,17 +71,17 @@
         ]
       },
       "C": {
-        "texto": "Ir com Astrid para a floresta para começar a praticar os princípios de magia. (Magia 1)",
+        "texto": "Ir com Astrid para a floresta para começar a praticar os princípios de magia. (CAPITULO DE CONSTRUÇÃO)",
         "requisitos": [
-          { "tipo": "atributo", "nome": "magia", "valor": 1 }
+          { "tipo": "atributo", "nome": "magia", "valor": 99 }
         ],
         "ganho_xp": 2,
         "proxima_cena": "capitulo_1_treino_na_floresta"
       },
       "D": {
-        "texto": "Treinar suas habilidades de caça e tiro utilizando o arco e flecha de Eskil. (Destreza 1)",
+        "texto": "Treinar suas habilidades de caça e tiro utilizando o arco e flecha de Eskil. (CAPITULO EM CONSTRUÇÃO)",
         "requisitos": [
-          { "tipo": "atributo", "nome": "destreza", "valor": 1 }
+          { "tipo": "atributo", "nome": "destreza", "valor": 99 }
         ],
         "ganho_xp": 2,
         "proxima_cena": "capitulo_1_treino_de_destreza"

@@ -1,0 +1,36 @@
+{
+  "capitulo_1_colar": {
+    "HUD": true,
+    "limpar_tela": true,
+    "background": "assets/cenas/capitulo_1_colar.jpg",
+    "blocos_sequenciais": [
+      {
+         "texto": "— Sobre o colar, ele me foi dado pela minha mãe. É uma das últimas memórias que tenho dela. Ele é feito de um cristal de mana que me ajuda a canalizar os feitiços.\n— É um belo colar, mas não me lembro de você o usando quando estava na floresta.\n\nA garota novamente me olha de maneira desconfiada.\n\n— Digo! Uma pedra tão chamativa eu certamente teria notado! — apresso-me em explicar para que um novo mal-entendido não seja criado.\n— … Eu também achei que o havia perdido, porém ele ainda estava comigo. Fiquei aliviada ao perceber.\n— Entendi. Que bom que conseguiu mantê-lo.\n— Obrigada.\n\n"
+      }, 
+      {  
+         "requisitos": [
+           {"tipo": "atributo", "nome": "magia", "valor": 1}
+         ],
+         "texto": "— Aliás, Kael, hoje eu sinto uma energia diferente em você.\n\nDessa vez, sou eu quem dá um passo para trás, afastando-me.\n\n— O que está fazendo? — questiona Astrid, arqueando a sobrancelha.\n— Me garantindo — respondo de pronto.\n— Palhaço! Me refiro a mana! Eu falei que o cristal é feito de mana, então ele reage à energia mágica, e está vibrando levemente quando me aproximo de você.\n— Por que isso acontece?\n— Não sei. Tem certeza de que não é um mago?\n\n"
+      },
+      {
+        "texto": "De repente, o painel translúcido surge diante dos meus olhos:\n\n========================================================\n[!o!] Hospedeiro, cuidado! Sinto vindo dela uma energia suspeita.\nRecomendo ficar atento ao redor dela por enquanto.\n========================================================\n\n(O que quer dizer com \"energia suspeita\"?) — questiono mentalmente.\n\n=================================================================\n[(='='=)] Talvez seja melhor conversarmos quando estivermos a sós, assim posso te dar uma explicação geral da situação.\n=================================================================\n\n(Por que não agora?) — insisto.\n\n=================================================================\n[(._. ')] Medidas de segurança. Não posso arriscar nos expor.\n=================================================================\n\nPor mais que ainda não entenda a situação por completo, aceito o conselho do espírito e decido aguardar até ficarmos a sós para prosseguir com a conversa. Aparentemente, enquanto falava mentalmente com ele, passei o tempo todo encarando Astrid em silêncio.\n\n— Kael, está tudo bem? Há algo errado?\n— Não, não é nada. Apenas estava pensando... Será que quem te sequestrou estava atrás do seu colar?\n\nAstrid reflete por um momento antes de responder:\n— Pode ser, afinal é muito raro um cristal que consiga armazenar tanta energia. Mas, se esse fosse o caso, por que não o levaram?\n— Boa pergunta. Será que tentaram, mas algo aconteceu logo após soltarem o colar, fazendo com que tivessem que sair correndo? Talvez por isso ele estivesse preso na sua roupa, e não no pescoço.\n— Será que foi a chegada do meu herói? — Dessa vez é ela quem provoca, e sinto meu rosto corar um pouco.\n— De qualquer maneira, devemos ficar vigilantes, afinal a casa ainda é próxima à floresta. Enfim, vamos entrar. Vou te mostrar os livros que temos na residência, assim você se ocupa enquanto arrumo as coisas e preparo o almoço para a gente.\n\nAstrid abre um sorriso:\n— É sempre você quem cozinha?\n— Adivinha de quem é a culpa? — provoco. — Por quê? O jantar estava ruim?\n\nA garota cora novamente, mas logo rebate:\n— Desculpa por ter sido sequestrada! — desdenha em tom de brincadeira. — E não, estava muito bom, devo admitir. Você tem um dom.\n\nApós essa troca, ambos damos risada, aliviando de vez o clima tenso de antes.\n\n",
+        "afeicao_npc": {
+        "id_npc": "campeao_astrid",
+        "delta": 5
+        }
+      }
+    ],
+    "opcoes": {
+      "A": {
+        "requisitos": [{"tipo": "relacao_npc", "id_npc": "campeao_astrid", "relacao": "aliado"}],
+	      "texto": "Tentar questionar Astrid sobre as propriedades do colar",
+        "proxima_cena": "capitulo_1_colar_revelacao"
+      },
+      "B": {
+        "texto":  "Continuar",
+        "proxima_cena": "capitulo_1_colar_final"
+      }
+    }
+  }
+}
