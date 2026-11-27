@@ -1,31 +1,30 @@
 {
   "capitulo_1_colar": {
     "HUD": true,
-    "limpar tela": true,
+    "limpar_tela": true,
     "background": "assets/cenas/capitulo_1_colar.jpg",
-    "blocos sequenciais": [
+    "blocos_sequenciais": [
       {
-         "texto": "— Sobre o colar, ele me foi dado pela minha mãe. É uma das últimas memórias que tenho dela. Ele é feito de um cristal de mana que me ajuda a canalizar os feitiços.\n— É um belo colar, mas não me lembro de você o usando quando estava na floresta.\n\nA garota novamente me olha de maneira desconfiada.\n\n— Digo! Uma pedra tão chamativa eu certamente teria notado! — apresso-me em explicar para que um novo mal-entendido não seja criado.\n— … Eu também achei que o havia perdido, porém ele ainda estava comigo. Fiquei aliviada ao perceber.\n— Entendi. Que bom que conseguiu mantê-lo.\n— Obrigada.\n\n"
+         "texto": "— Sobre o colar, ele me foi dado pela minha mãe. É uma das últimas memórias que tenho dela. Ele é feito de um cristal de mana que me ajuda a canalizar os feitiços.\n\n[IMG: assets/cenas/capitulo_1_colar.jpg]\n\n— É um belo colar, mas não me lembro de você o usando quando estava na floresta.\n\nA garota novamente me olha de maneira desconfiada.\n\n— Digo! Uma pedra tão chamativa eu certamente teria notado! — apresso-me em explicar para que um novo mal-entendido não seja criado.\n— … Eu também achei que o havia perdido, porém ele ainda estava comigo. Fiquei aliviada ao perceber.\n— Entendi. Que bom que conseguiu mantê-lo.\n— Obrigada.\n\n"
       }, 
       {  
          "requisitos": [
            {"tipo": "atributo", "nome": "magia", "valor": 1}
          ],
-         "texto": "— Aliás, Kael, hoje eu sinto uma energia diferente em você.\n\nDessa vez, sou eu quem dá um passo para trás, afastando-me.\n\n— O que está fazendo? — questiona Astrid, arqueando a sobrancelha.\n— Me garantindo — respondo de pronto.\n— Palhaço! Me refiro a mana! Eu falei que o cristal é feito de mana, então ele reage à energia mágica, e está vibrando levemente quando me aproximo de você.\n— Por que isso acontece?\n— Não sei. Tem certeza de que não é um mago?\n\n",
+         "texto": "— Aliás, Kael, hoje eu sinto uma energia diferente em você.\n\nDessa vez, sou eu quem dá um passo para trás, afastando-me.\n\n— O que está fazendo? — questiona Astrid, arqueando a sobrancelha.\n— Me garantindo — respondo de pronto.\n— Palhaço! Me refiro a mana! Eu falei que o cristal é feito de mana, então ele reage à energia mágica, e está vibrando levemente quando me aproximo de você.\n— Por que isso acontece?\n— Não sei. Tem certeza de que não é um mago?\n\n"
       },
       {
-        "texto": "De repente, o painel translúcido surge diante dos meus olhos:\n\n========================================================\n[!o!] Hospedeiro, cuidado! Sinto vindo dela uma energia suspeita.\nRecomendo ficar atento ao redor dela por enquanto.\n========================================================\n\n(O que quer dizer com "energia suspeita"?) — questiono mentalmente.\n\n=================================================================\n[(='='=)] Talvez seja melhor conversarmos quando estivermos a sós, assim posso te dar uma explicação geral da situação.\n=================================================================\n\n(Por que não agora?) — insisto.\n\n=================================================================\n[(._. ')] Medidas de segurança. Não posso arriscar nos expor.\n=================================================================\n\nPor mais que ainda não entenda a situação por completo, aceito o conselho do espírito e decido aguardar até ficarmos a sós para prosseguir com a conversa. Aparentemente, enquanto falava mentalmente com ele, passei o tempo todo encarando Astrid em silêncio.\n\n— Kael, está tudo bem? Há algo errado?\n— Não, não é nada. Apenas estava pensando... Será que quem te sequestrou estava atrás do seu colar?\n\nAstrid reflete por um momento antes de responder:\n— Pode ser, afinal é muito raro um cristal que consiga armazenar tanta energia. Mas, se esse fosse o caso, por que não o levaram?\n— Boa pergunta. Será que tentaram, mas algo aconteceu logo após soltarem o colar, fazendo com que tivessem que sair correndo? Talvez por isso ele estivesse preso na sua roupa, e não no pescoço.\n— Será que foi a chegada do meu herói? — Dessa vez é ela quem provoca, e sinto meu rosto corar um pouco.\n— De qualquer maneira, devemos ficar vigilantes, afinal a casa ainda é próxima à floresta. Enfim, vamos entrar. Vou te mostrar os livros que temos na residência, assim você se ocupa enquanto arrumo as coisas e preparo o almoço para a gente.\n\nAstrid abre um sorriso:\n— É sempre você quem cozinha?\n— Adivinha de quem é a culpa? — provoco. — Por quê? O jantar estava ruim?\n\nA garota cora novamente, mas logo rebate:\n— Desculpa por ter sido sequestrada! — desdenha em tom de brincadeira. — E não, estava muito bom, devo admitir. Você tem um dom.\n\nApós essa troca, ambos damos risada, aliviando de vez o clima tenso de antes.\n\n",
-      },
-      "afeicao_npc": {
+        "texto": "De repente, o painel translúcido surge diante dos meus olhos:\n\n========================================================\n[!o!] Hospedeiro, cuidado! Sinto vindo dela uma energia suspeita.\nRecomendo ficar atento ao redor dela por enquanto.\n========================================================\n\n(O que quer dizer com \"energia suspeita\"?) — questiono mentalmente.\n\n=================================================================\n[(='='=)] Talvez seja melhor conversarmos quando estivermos a sós, assim posso te dar uma explicação geral da situação.\n=================================================================\n\n(Por que não agora?) — insisto.\n\n=================================================================\n[(._. ')] Medidas de segurança. Não posso arriscar nos expor.\n=================================================================\n\nPor mais que ainda não entenda a situação por completo, aceito o conselho do espírito e decido aguardar até ficarmos a sós para prosseguir com a conversa. Aparentemente, enquanto falava mentalmente com ele, passei o tempo todo encarando Astrid em silêncio.\n\n— Kael, está tudo bem? Há algo errado?\n— Não, não é nada. Apenas estava pensando... Será que quem te sequestrou estava atrás do seu colar?\n\nAstrid reflete por um momento antes de responder:\n— Pode ser, afinal é muito raro um cristal que consiga armazenar tanta energia. Mas, se esse fosse o caso, por que não o levaram?\n— Boa pergunta. Será que tentaram, mas algo aconteceu logo após soltarem o colar, fazendo com que tivessem que sair correndo? Talvez por isso ele estivesse preso na sua roupa, e não no pescoço.\n— Será que foi a chegada do meu herói? — Dessa vez é ela quem provoca, e sinto meu rosto corar um pouco.\n— De qualquer maneira, devemos ficar vigilantes, afinal a casa ainda é próxima à floresta. Enfim, vamos entrar. Vou te mostrar os livros que temos na residência, assim você se ocupa enquanto arrumo as coisas e preparo o almoço para a gente.\n\nAstrid abre um sorriso:\n— É sempre você quem cozinha?\n— Adivinha de quem é a culpa? — provoco. — Por quê? O jantar estava ruim?\n\nA garota cora novamente, mas logo rebate:\n— Desculpa por ter sido sequestrada! — desdenha em tom de brincadeira. — E não, estava muito bom, devo admitir. Você tem um dom.\n\nApós essa troca, ambos damos risada, aliviando de vez o clima tenso de antes.\n\n",
+        "afeicao_npc": {
         "id_npc": "campeao_astrid",
         "delta": 5
-      } 
+        }
       }
     ],
-    "opções": {
+    "opcoes": {
       "A": {
-        "requisitos": ["tipo": "afeicao_npc", "nome": "campeao_astrid", "valor": 80],
-	"texto": "Tentar questionar Astrid sobre as propriedades do colar",
+        "requisitos": [{"tipo": "relacao_npc", "id_npc": "campeao_astrid", "relacao": "aliado"}],
+	      "texto": "Tentar questionar Astrid sobre as propriedades do colar",
         "proxima_cena": "capitulo_1_colar_revelacao"
       },
       "B": {
@@ -34,4 +33,39 @@
       }
     }
   },
+"capitulo_1_colar_final": {
+	"limpar_tela": true,
+	"HUD": true,
+	"narrativa": "
+Entrando novamente na casa principal vou até meu quarto e busco um baú repleto de livros e levo até a sala onde se encontra Astrid, seus olhos brilham ao ver a quantidade de livros.
+-- Não pensei que gostasse tanto de ler. -- Diz a garota surpresa
+-- De vez em quando quando estou entediado leio um pouco. -- Respondo coçando as bochechas
+Astrid nota então um pergaminho enrolado no fundo do baú, suas bordas douradas mostrava a qualidade nobre do papel, o pergaminho estava enrolado e preso em uma bela fita vermelha com um brasão mágico na ponta.
+-- O que é isso? -- Questiona Astrid curiosa
+Rapidamente tomo o pergaminho das mãos dela, suando frio.
+-- Ah.. isso?
+-- Sim, o que há? É algo que não posso ver? Algo suspeito? -- Provoca ela
+-- Não, na realidade é que se algo acontece com esse pergaminho sinto que 2 vidas não seriam suficientes para acalmar o velho Eldrin.
+-- Eldrin?
+-- Sim, ele é um amigo da família, um velho ranzinza que fica sempre reclamando de tudo, ele é dono da maior livraria do reino, um tempo atrás enquanto visitava enquanto o visitava notei esse pergaminho em sua mesa, como me chamou muito a atenção pela sua aparencia eu o peguei para ler, mas esqueci de avisar ao velho... E ainda não descobri como quebrar o selo. (#nota: adicionar tag conhecimento: provocacao_astrid na opção de provocacao da cena anterior para usar de check oculto na primeira aparicao de eldrin se astrid estiver presente#)
+Os olhos de Astrid brilham cada vez mais enquanto me ouve falar, mas ao ouvir sobre o selo fica pensativa.
+-- Hm o que será que está escondido ai dentro? De fato o acabamento dele trás uma aura interessante. Posso tentar ver?
+Ainda estou hesitante em deixar outra pessoa tocar no pergaminho.",
+	"opcoes": {
+		"A": {
+			"texto": "Entregar o pergaminho para Astrid",
+			"proxima_cena": "capitulo_1_pergaminho_aberto"
+		},
+		"B": {
+			"texto": "Se desculpar e guardar novamente o pergaminho",
+			"proxima_cena": "capitulo_1_pergaminho_fechado"
+		}
+	}
+}
+"capitulo_1_pergaminho_aberto": {
+	"limpar_tela": false,
+	"HUD": true,
+	"narrativa": "
+"Astrid 
+}
 }
